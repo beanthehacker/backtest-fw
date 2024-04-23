@@ -28,7 +28,7 @@ def read_depth_file(file_path):
             d['quantity'] = src[5]
             rows.append(d)
     return rows
-file_path = 'D:\\ES-lfg\\Data\\MarketDepthData\\F.US.EPM24.2024-04-16.depth'
+file_path = 'F.US.EPM24.2024-04-16.depth'
 rows = read_depth_file(file_path)
 
 print(rows[0])
